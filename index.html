@@ -8,38 +8,38 @@
     <link rel="stylesheet" href="./index.css" />
   </head>
   <body>
+    <input
+      type="file"
+      accept="image/*"
+      id="imageInput"
+      style="display: none"
+    />
     <div class="container">
-      <input
-        type="file"
-        accept="image/*"
-        id="imageInput"
-        style="display: none"
-      />
-      <div id="imageContainer"></div>
-      <button id="uploadButton">Upload Image</button>
-    </div>
+      <div id="imageContainer">
+        <img id="primary" alt="">
+        <img id="logo" alt="">
+      </div>
+      <div class="right">
+        <h2>Custom Umbrella</h2>
+          <div id="colors">
+            <span class="pink"></span>
+            <span class="blue"></span>
+            <span class="yellow"></span>
+          </div>
+          <div class="text">
+            <h5>Customize your Umbrella</h5>
+            <p>Upload a logo for an instant preview.<br/>.png and .jpg files only
+            </p>
+          </div>
+        <div class="btn">          
+          <div id="uploadButton">
+            <img src="./assets/upload_icon.svg" alt="upload_icon" />
+            <span>Upload Logo</span>
+          </div>
+          <span id="clear">✕</span>
+        </div>
+      </div>
 
-    <script>
-      const imageInput = document.getElementById("imageInput");
-      const imageContainer = document.getElementById("imageContainer");
-      const uploadButton = document.getElementById("uploadButton");
-
-      uploadButton.addEventListener("click", function () {
-        imageInput.click();
-      });
-
-      imageInput.addEventListener("change", function (event) {
-        const file = event.target.files[0];
-        const reader = new FileReader();
-
-        reader.onload = function () {
-          const imageUrl = reader.result;
-          imageContainer.innerHTML =
-            '<img src="' + imageUrl + '" alt="Selected Image">';
-        };
-
-        reader.readAsDataURL(file);
-      });
-    </script>
+    <script src="./index.js"></script>
   </body>
 </html>
