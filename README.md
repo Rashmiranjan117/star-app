@@ -13,3 +13,8 @@
 ### Assesment-1 : <a href="https://endearing-capybara-4a1168.netlify.app/" target="blank">Link</a>
 
 ### Assesment-2 : <a href="https://replit.com/@RashmiranjanMah/MinimumPlane#index.js" target="blank">Link</a> 
+
+### To Run this application locally:
+
+- Run this command using bash: ```git clone https://github.com/Rashmiranjan117/star-app.git```
+- Right click on ```index.html``` file and select ```Open with live server``` or use Live server extension for Vs Code.
