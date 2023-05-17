@@ -1,4 +1,4 @@
-# star-app
+# Color Blender
 
 ## Tech stacks used:
 [![HTML5](https://img.shields.io/badge/HTML5-%23E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
