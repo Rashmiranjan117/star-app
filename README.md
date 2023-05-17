@@ -6,7 +6,8 @@
 [![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://www.w3.org/Style/CSS/)
 
 
-![scr-star-app](https://github.com/Rashmiranjan117/star-app/assets/107473816/49d7b829-0bc9-466e-af46-bce30193e8bc)
+![scr-star-app](https://github.com/Rashmiranjan117/star-app/assets/107473816/829a03a2-3b72-4a3d-ba6d-77468cc7eaf0)
+
 
 
 
